@@ -1,0 +1,14 @@
+pip install fastapi uvicorn
+
+to start server
+uvicorn main:app --reload
+
+
+benefit
+    1. in build data validation 
+    2. in built docs
+            http://127.0.0.1:8000/docs
+            http://127.0.0.1:8000/redoc
+    3. Fast running performance
+    4. Fast development, less time to code, few bugs :3
+
